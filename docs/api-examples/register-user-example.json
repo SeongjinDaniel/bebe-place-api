@@ -1,0 +1,46 @@
+{
+  "email": "user@example.com",
+  "password": "SecurePassword123!",
+  "nickname": "베베맘",
+  "phoneNumber": "010-1234-5678",
+  "birthDate": "1990-05-15",
+  "profileImageUrl": "https://example.com/profile.jpg",
+  "bio": "안녕하세요! 두 아이의 엄마입니다. 깨끗하고 좋은 육아용품 거래하고 싶어요.",
+  "babies": [
+    {
+      "name": "지우",
+      "gender": "FEMALE",
+      "birthDate": "2022-03-15",
+      "interests": ["BABY_CLOTHING", "TOYS_EDUCATIONAL", "FEEDING_WEANING"]
+    },
+    {
+      "name": "민준",
+      "gender": "MALE", 
+      "birthDate": "2020-08-20",
+      "interests": ["BOYS_CLOTHING", "TOYS_EDUCATIONAL", "BABY_PRODUCTS"]
+    }
+  ],
+  "regions": [
+    {
+      "regionCode": "11110",
+      "sido": "서울특별시",
+      "sigungu": "종로구",
+      "dong": "청운효자동",
+      "priority": 1
+    },
+    {
+      "regionCode": "11140", 
+      "sido": "서울특별시",
+      "sigungu": "중구",
+      "dong": "명동",
+      "priority": 2
+    },
+    {
+      "regionCode": "11170",
+      "sido": "서울특별시", 
+      "sigungu": "용산구",
+      "dong": "이촌동",
+      "priority": 3
+    }
+  ]
+}

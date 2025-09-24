@@ -1,0 +1,26 @@
+coolsms:
+  from: ${coolsms-from}
+  api:
+    key: ${coolsms-api-key}
+    secret: ${coolsms-api-secret}
+
+minio:
+  endpoint: http://localhost:9000
+  access-key: minioadmin
+  secret-key: minioadmin123
+  bucket:
+    product-images: product-images
+
+spring:
+  application:
+    name: bebe-place-api
+
+logging:
+  level:
+    com.bebeplace.bebeplaceapi: DEBUG
+    org.springframework.security: DEBUG
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+server:
+  port: 8080
